@@ -1,4 +1,5 @@
 import { livros } from "../src/data/livros.js"
+import {livroLista} from "./componentes/livros/livroLista.jsx"
 import './App.css'
 
 function App() {

@@ -1,23 +1,24 @@
-const livroInfo = ({ 
-    titulo,
-    autor,
-    avaliacao,
-    tempoLeitura,
-    descricao,
-}) => {
+import ListaLivros from "./livroLista";
+
+const LivroInfo = ({ livroPrincipal, outrosLivros}) =>
+{
     return (
-        <div className="bg-[#D8C7A3] p-6 justify-start items-start">
-            <h1 className="mt-4 p-2">{titulo}</h1>
-            <h2 className="p-2">{autor}</h2>
+        <div className="flex justify-between p-10 bg-[#f5ecd7]">
 
-            <div className="flex flex-row items-center">
-                <p className="p-2">{avaliacao}</p>
-                <p className="p-2">{tempoLeitura}</p>
+            <div className="max-w-xl">
+                <h1 className="text-3xl font-bold">
+                    {livroPrincipal.titulo}
+                </h1>
+
+                <p className="mt-2">Por {livroPrincipal.autor}</p>
+
+                <p>
+                    
+                </p>
+
             </div>
-
-            <p className="p-2">{descricao}</p>
         </div>
-    );
-};
+    )
+}
 
-export default livroInfo;
+export default LivroInfo;
