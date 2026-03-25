@@ -8,7 +8,7 @@ const Button = ({onmouseover, children, color = "primary"}) =>
     return (
         <button
         onmouseover={onmouseover}
-        className={`px-4 py-2 roudend ${styles[color]}`}>
+        className={`px-4 py-2 rounded ${styles[color]}`}>
             {children}
         </button>
     );

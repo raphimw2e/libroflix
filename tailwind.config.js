@@ -10,7 +10,7 @@ export default {
       },
       colors: {
         primary: '#BF2619BF', 
-        'off-white-40%': '#ffffff66', 
+        'off-white-40%': '#ffffff66', 'book-brown': '#4a3728'  
       },
     },
   },
