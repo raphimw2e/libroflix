@@ -6,14 +6,14 @@ export const livros = [
         nota: "4.5",
         duracao: "18h 10min" ,
         descricao: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde excepturi tempora delectus earum vero quaerat quas consectetur rerum ab veniam quasi quos nihil laboriosam, sed veritatis non labore in. Illo cupiditate minus velit sint. Molestiae pariatur voluptatem libero nisi! Ducimus, voluptates aspernatur! Harum, odio quae?",
-        imagem: "libroflix\public\assets\Las Venas Abiertas de América Latina.jpg"
+        imagem: "/assets/Las Venas Abiertas de América Latina.jpg"
 
     },
     {
         id: 2,
         titulo: "El Libro de los Abrazos",
         autor: "Eduardo Galeano",
-        imagem: "libroflix\public\assets\El Libro de los Abrazos.jpg"
+        imagem: "/assets/El Libro de los Abrazos.png"
 
         
     }, 
@@ -21,7 +21,7 @@ export const livros = [
         id: 3,
         titulo: "El Futbol a sol y sombra",
         autor: "Eduardo Galeano",
-        imagem: "libroflix\public\assets\El Futbol a sol y sombra.jpg"
+        imagem: "/assets/El Futbol a sol y sombra.png"
 
         
     }, 
@@ -29,7 +29,7 @@ export const livros = [
         id: 4,
         titulo: "Dias y Noches de Amor y de Guerra",
         autor: "Eduardo Galeano",
-        imagem: "libroflix\public\assets\Dias y Noches de Amor y de Guerra.jpg"
+        imagem: "/assets/Dias y Noches de Amor y de Guerra.png"
 
         
     }, 
@@ -37,7 +37,7 @@ export const livros = [
         id: 5,
         titulo: "Vagamundo",
         autor: "Eduardo Galeano",
-        imagem: "libroflix\public\assets\Vagamundo.jpg"
+        imagem: "/assets/Vagamundo.png"
 
         
     }, 
@@ -45,7 +45,7 @@ export const livros = [
         id: 6,
         titulo: "Patas Arriba",
         autor: "Eduardo Galeano",
-        imagem: "libroflix\public\assets\Patas Arriba.jpg"
+        imagem: "/assets/Patas Arriba.png"
 
     }
 ]
